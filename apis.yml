@@ -1,7 +1,25 @@
 aid: adaptv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adaptv.png
 name: Adap.tv
-description: Adap.tv is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Adap.tv was a global programmatic video advertising platform founded around 2007 and backed
+  by Redpoint Ventures, offering brands, agencies, and publishers tools for planning, executing, and
+  measuring video ad campaigns programmatically, including real-time bidding (RTB), audience targeting,
+  campaign management, and analytics through its Pathway video-intelligence platform. AOL acquired Adap.tv
+  in September 2013 for approximately $405 million and folded its technology into ONE by AOL; the business
+  subsequently passed to Verizon Media and then Yahoo. Adap.tv no longer operates as an independent
+  company and publishes no developer program, public API, or SDKs; the www.adap.tv domain now
+  301-redirects to yahooinc.com. This profile is retained as a historical portfolio-lead record.
 url: https://raw.githubusercontent.com/api-evangelist/adaptv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,23 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: aol
+x-acquired-date: '2013-09-06'
+x-successor-domain: https://www.yahooinc.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Advertising
+- AdTech
+- Video Advertising
+- Programmatic
+- Real-Time Bidding
+- Marketing
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: http://www.adap.tv/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
